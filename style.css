@@ -1,0 +1,35 @@
+/* Custom styles for the presentation */
+.slidev-layout {
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+.slidev-layout.two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+a.prominent-link {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a.prominent-link:hover {
+  background-color: #2980b9;
+}
